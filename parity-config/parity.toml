@@ -1,0 +1,16 @@
+[parity]
+chain = "/parity/config/evan.json"
+keys_path ="/parity/config/keys"
+
+[rpc]
+interface = "all"
+hosts = ["all"]
+
+[websockets]
+disable = true
+
+[ui]
+disable = true
+
+[mining]
+author = "0x0000000000000000000000000000000000000041"
