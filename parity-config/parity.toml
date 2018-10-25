@@ -1,5 +1,5 @@
 [parity]
-chain = "/parity/config/evan.json"
+chain = "/parity/config/testcore.json"
 keys_path ="/parity/config/keys"
 
 [rpc]
