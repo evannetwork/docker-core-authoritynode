@@ -1,5 +1,5 @@
 [parity]
-chain = "/parity/config/testcore.json"
+chain = "/parity/config/core.json"
 keys_path ="/parity/config/keys"
 
 [rpc]
@@ -13,4 +13,4 @@ disable = true
 disable = true
 
 [mining]
-author = "0x0000000000000000000000000000000000000041"
+author = "0x0000000000000000000000000000000000000000"
