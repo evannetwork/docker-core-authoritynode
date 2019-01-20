@@ -1,6 +1,6 @@
 [parity]
-chain = "/parity/config/core.json"
-keys_path ="/parity/config/keys"
+chain = "/home/parity/core-config/core.json"
+keys_path ="/home/parity/parity-config/config/keys"
 
 [rpc]
 interface = "all"
