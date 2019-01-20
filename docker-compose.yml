@@ -7,7 +7,6 @@ services:
     entrypoint: /home/parity/bin/parity
     restart: always
     command:
-      --min-gas-price 20000000000
       --config /home/parity/parity-config/config/parity.toml
       --password /home/parity/parity-config/config/pw.txt
       --engine-signer 0x649672b93da8951BfA9Ee6813F0332f68F21FB38
