@@ -8,16 +8,16 @@ The technical requirements to the installed server are :
 
 AWS: 
  - T2.xlarge /T2.large Instance 
- - Min. 100GB EBS storage
+ - Min. 300GB EBS storage
 
 Azure: 
  - Standard_D4_v3 / Standard_D2_v3 
- - Min 100GB Premium storage 
+ - Min 300GB Premium storage 
 
 OnPremise: 
  - 2 Xeon CPU's 
  - 16GB RAM 
- - 100GB SSD storage
+ - 300GB SSD storage
 
 Open Ports: 
 30303 (TCP & UDP) – Blockchain Sync
