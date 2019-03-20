@@ -10,7 +10,7 @@ services:
       --password /parity/config/pw.txt
       --engine-signer [Authority address]
       --nat "extip:[External IP]"
-      --min-gas-price 200000000000
+      --min-gas-price 20000000000
       --no-secretstore
       --no-secretstore-http
     volumes:
