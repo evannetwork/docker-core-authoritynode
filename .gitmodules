@@ -1,3 +1,0 @@
-[submodule "testcore-config"]
-	path = testcore-config
-	url = git@github.com:evannetwork/testcore-config.git

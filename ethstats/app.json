@@ -16,8 +16,8 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "[company name] evan.network",
       "CONTACT_DETAILS" : "[admin email]",
-      "WS_SERVER"       : "wss://teststatus.evan.network",
-      "WS_SECRET"       : "a962ddd5611dba379927628fd765dc7c63a27721",
+      "WS_SERVER"       : "[status url]",
+      "WS_SECRET"       : "[ws secret]",
       "VERBOSITY"       : 3
     }
   }
