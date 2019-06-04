@@ -32,7 +32,7 @@ services:
         max-file: "5"
 
   monitor:
-    image: buythewhale/ethstats_monitor
+    image: evannetwork/ethstats_monitor
     container_name: ethstats_monitor
     restart: always
     volumes:
