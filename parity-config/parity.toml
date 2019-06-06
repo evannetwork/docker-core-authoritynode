@@ -9,5 +9,5 @@ disable = true
 disable = true
 
 [mining]
-tx_gas_limit = "60000000"
-gas_floor_target = "60000000"
+tx_gas_limit = "16000000"
+gas_floor_target = "16000000"
