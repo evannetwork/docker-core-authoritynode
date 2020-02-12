@@ -14,6 +14,10 @@ Azure:
  - Standard_D4_v3 / Standard_D2_v3
  - Min 300GB Premium storage
 
+DigitalOcean:
+- Standard droplet with
+- 8GB RAM, 4 vCPU, 160gb SSD
+
 OnPremise:
  - 2 Xeon CPU's
  - 16GB RAM
