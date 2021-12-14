@@ -1,11 +1,11 @@
+[parity]
+chain = "/parity/config/testcore.json"
+
 [rpc]
 interface = "all"
 hosts = ["all"]
 
 [websockets]
-disable = true
-
-[ui]
 disable = true
 
 [mining]

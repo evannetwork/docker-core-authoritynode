@@ -1,14 +1,12 @@
 version: '2'
 services:
   parity:
-    image: parity/parity:v2.5.10-stable
+    image: openethereum/openethereum:latest
     container_name: parity_signer
     restart: always
     user: root
     command:
       # uncomment the used chain
-      # --chain /parity/config/testcore.json
-      # --chain /parity/config/core.json
       --config /parity/config/parity.toml
       --password /parity/config/pw.txt
       --engine-signer [Authority address]
@@ -17,7 +15,7 @@ services:
       --no-secretstore
       --no-secretstore-http
     volumes:
-      - evan-network-chain:/root/.local/share/io.parity.ethereum/
+      - ./evan-network-chain:/root/.local/share/openethereum/
       - ./parity-config:/parity/config
       # uncomment the used chain
       # - ./testcore-config/testcore.json:/parity/config/testcore.json
